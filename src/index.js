@@ -137,7 +137,7 @@ class DrawioEmbed extends ItvCheck {
     this.editImage.isLoaded = this.isLoaded;
     if (this.iframeInserted) return this.editImage;
     this.iframeInserted = true;
-    if (!drawioUrl) drawioUrl = "https://www.draw.io/";
+    if (!drawioUrl) drawioUrl = "https://embed.diagrams.net/";
     this.initCommunication(drawioUrl);
     return this.editImage;
   };
